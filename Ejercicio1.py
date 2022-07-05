@@ -1,0 +1,33 @@
+print ("Ejercicio 1 \n\t\tFicha de datos \n")
+print ("Ingresa los datos que se le solicitan")
+
+#Solicitud de datos al usuario
+nombre = input("Nombre: ")
+notelefono = int (input ("Número de telefono: "))
+direccion = input("Dirección: ")
+edad = int (input("Edad: "))
+nacionalidad = input("Nacionalidad: ")
+fechanac = input("Fecha de nacimiento: ")
+altura = float (input("Altura (metros): "))
+peso = float (input("Peso: "))
+print ("Tus datos han sido guardados con exito!!")
+
+#impresión de datos y su tipo 
+print ("Hola", nombre, ". Tus datos son: \n")
+
+print ("Nombre:", nombre)
+print (type(nombre))
+print ("Numero telefonico:", notelefono)
+print (type(notelefono))
+print ("Direccion:", direccion)
+print (type(direccion))
+print ("Edad:", edad)
+print (type(edad))
+print ("Nacionalidad:", nacionalidad)
+print (type(nacionalidad))
+print ("Fecha de nacimiento:", fechanac)
+print (type(fechanac))
+print ("Altura:", altura)
+print (type(altura))
+print ("Peso:", peso)
+print (type(peso))
